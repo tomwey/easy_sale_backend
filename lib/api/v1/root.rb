@@ -25,31 +25,10 @@ module API
         end
       end
       
-      mount API::V1::PayAPI
-      mount API::V1::BannersAPI
-      mount API::V1::UtilsAPI
-      mount API::V1::QQLbsAPI
-      mount API::V1::ReportsAPI
-      mount API::V1::FeedbacksAPI
       mount API::V1::AuthCodesAPI
       mount API::V1::UsersAPI
-      mount API::V1::ShareAPI
-      # mount API::V1::MerchantsAPI
-      # mount API::V1::BannersAPI
-      # mount API::V1::PayAPI
-      mount API::V1::EarningsAPI
-      # mount API::V1::MessagesAPI
-      # mount API::V1::RedPacketsAPI
-      mount API::V1::FollowsAPI
       mount API::V1::PagesAPI
-      # mount API::V1::EventsAPI
-      mount API::V1::RedbagsAPI
-      mount API::V1::PartinsAPI
-      # mount API::V1::ItemsAPI
-      mount API::V1::LuckyDrawsAPI
       mount API::V1::AttachmentsAPI
-      mount API::V1::OfferwallAPI
-      mount API::V1::CardsAPI
       
       # 
       # 配合trix文本编辑器
