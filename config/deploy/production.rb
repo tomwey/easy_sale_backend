@@ -11,7 +11,7 @@ role :app, %w{deployer@120.132.57.133}
 role :web, %w{deployer@120.132.57.133}
 role :db,  %w{deployer@120.132.57.133}
 
-set :server_name, "deyiwifi.com"
+set :server_name, "easysale.afterwind.cn"
 # set :port, "80" # 默认都是80端口
 
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
@@ -30,7 +30,7 @@ set :deploy_to, "/data/www/apps/#{fetch(:full_app_name)}"
 
 set :rails_env, :production
 
-set :unicorn_worker_count, 4
+set :unicorn_worker_count, 2
 
 set :enable_ssl, false
 
