@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="balance">
+    <p>余额</p>
+    <p class="money"><%= '%.2f' % (current_user.balance || 0) %><span class="unit">元</span></p>
+  </div>
+  <div class="withdraw">
+    <!-- <div class="input-item clearfix">
+
+      <div class="">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 微信
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 支付宝
+        </label>
+      </div>
+    </div> -->
+    
+    <div class="input-item clearfix">
+      <label class="label pull-left">提现方式</label>
+      <div class="controls pull-left">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 微信
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 支付宝
+        </label>
+      </div>
+    </div>
+    
+    <div class="input-item clearfix">
+      <label class="label pull-left">金额</label>
+      <div class="controls pull-left">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 元
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 10 元
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 100 元
+        </label>
+      </div>
+    </div>
+    
+      
+  </div>
+</div>
