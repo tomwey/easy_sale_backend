@@ -1,7 +1,5 @@
 #= require arctic_admin/base
 #= require jquery.chosen
-#= require lucky_draw.mRotate
-#= require lucky_draw.utils
 #= require redactor-rails/redactor
 #= require redactor-rails/config
 #= require redactor-rails/langs/zh_cn
